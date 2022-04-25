@@ -5,7 +5,7 @@ let guaopencard_addSku = "false"
 let guaopencard = "false"
 let guaopenwait = "2"
 
-const $ = new Env('xinjia4');
+const $ = new Env('4.25~5.1 我的新家，超级配');
 const jdCookieNode = $.isNode() ? require('./jdCookie.js') : '';
 const notify = $.isNode() ? require('./sendNotify') : '';
 let cleanCart = ''
