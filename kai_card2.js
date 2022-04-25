@@ -43,7 +43,7 @@ let activityCookie =''
 !(async () => {
     if ($.isNode()) {
         if(guaopencard+"" != "true"){
-            console.log('如需执行脚本请设置环境变量[guaopencard112]为"true"')
+            console.log('如需执行脚本请设置环境变量[guaopencard_All]为"true"')
         }
         if(guaopencard+"" != "true"){
             return

@@ -1,40 +1,7 @@
 /*
 4.17~4.23 我的新家，超级配 [kai_card1.js]
-新增开卡脚本
-一次性脚本
+**/
 
-1.邀请一人20豆
-2.开2组(共8张) 成功开1组 获得1次抽奖
-3.加购5京豆
-  (默认不加购 如需加购请设置环境变量[guaopencard_addSku137]为"true"
-4.浏览店铺1豆/个
-5.浏览商品1豆/个
-
-第一个账号助力作者 其他依次助力CK1
-第一个CK失效会退出脚本
-
-默认脚本不执行
-如需执行脚本请设置环境变量
-guaopencard137="true"
-每个账号之间延迟 100=延迟100秒 0=延迟0秒会使用每3个账号延迟60秒
-guaopenwait_All 所有
-guaopenwait137="0"
-
-
-All变量适用
-————————————————
-入口：[ 4.17~4.23 我的新家，超级配 (https://lzdz1-isv.isvjcloud.com/dingzhi/dz/openCard/activity?activityId=d1d801f6b58c49279abd443958d46eb4&shareUuid=f3ae1464482b464f9fa6baaf072a1a88)]
-
-请求太频繁会被黑ip
-过10分钟再执行
-
-cron:30 1 23 4 *
-============Quantumultx===============
-[task_local]
-#4.17~4.23 我的新家，超级配
-30 1 23 4 * https://raw.githubusercontent.com/smiek2121/scripts/master/gua_opencard137.js, tag=4.17~4.23 我的新家，超级配, enabled=true
-
-*/
 let guaopencard_addSku = 'false'
 let guaopencard = 'false'
 let guaopenwait = '0'
