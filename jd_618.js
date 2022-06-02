@@ -155,7 +155,7 @@ async function run(type = 0){
         let s = 0
         let t = 0
         do{
-            const flCodeArr = ["Jw9vOPv","JI9Tv0s","JI9BVON","JI9nW0I","Jw9YYhk","lddJkXX"];//鸡蛋不要放在一个篮子里
+            const flCodeArr = ["lMq5mM0","lw8g04v","lMq5mM0","lw8g04v","lMq5mM0","lw8g04v"];//鸡蛋不要放在一个篮子里
             for (let i = 0; i < 20; i++) {// 收1/4 助力 应该没问题吧?
                 flCodeArr.push(rebateCodes)
             }
