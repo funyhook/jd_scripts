@@ -22,7 +22,7 @@ cron "0 0 0,12,19,20 * * *" script-path=https://raw.githubusercontent.com/Aaron-
  */
 const $ = new Env('618红包锁佣');
 const jdCookieNode = $.isNode() ? require('./jdCookie.js') : '';
-let rebateCodes = 'lMq5mM0'
+let rebateCodes = 'lt2IYve'
 let rebatePin = '' //分享码 默认助力前五 如果小于五个号 只助力第一个
 CryptoScripts()
 $.CryptoJS = $.isNode() ? require('crypto-js') : CryptoJS;
@@ -155,7 +155,7 @@ async function run(type = 0){
         let s = 0
         let t = 0
         do{
-            const flCodeArr = ["lMq5mM0","lw8g04v","lMq5mM0","lw8g04v","lMq5mM0","lw8g04v"];//鸡蛋不要放在一个篮子里
+            const flCodeArr = ["lt2IYve","lw2Ozn3","lt2IYve","lw2Ozn3","lt2IYve","lw2Ozn3"];//鸡蛋不要放在一个篮子里
             for (let i = 0; i < 20; i++) {// 收1/4 助力 应该没问题吧?
                 flCodeArr.push(rebateCodes)
             }
