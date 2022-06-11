@@ -18,7 +18,7 @@ let qlHost = "127.0.0.1:5700"
 let scriptName = "jd_jinglewan"
 
 var fs = require("fs")
-let authFile = JSON.parse(fs.readFileSync("/ql/config/auth.json"))
+let authFile = JSON.parse(fs.readFileSync("/ql/data/config/auth.json"))
 let qlToken = authFile.token
 
 let envSplitor = ['&','\n']
@@ -281,8 +281,8 @@ class UserInfo {
         }
         await $.wait(SLEEP_TIME)
         
-        for(let files of fs.readdirSync(`/ql/log/${scriptName}`)) {
-            let fileName = `/ql/log/${scriptName}/${files}`
+        for(let files of fs.readdirSync(`/ql/data/log/funyhook_jd_scripts_main/${scriptName}`)) {
+            let fileName = `/ql/data/log/funyhook_jd_scripts_main/${scriptName}/${files}`
             let logFile = fs.statSync(fileName)
             let mtime = logFile.mtime.getTime()
             let nowtime = Date.now()
