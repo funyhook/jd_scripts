@@ -13,7 +13,7 @@ const {
     DisableCk,
     EnableCk,
     getstatus
-} = require('./utils/ql');
+} = require('./ql');
 const api = got.extend({
     retry: {
         limit: 0
