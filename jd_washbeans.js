@@ -7,7 +7,7 @@
 */
 
 if (process.env.DY_WASHBEANS != "true") {
-    console.log("\n默认不运行,设置变量export DY_WASHBEANS='true’来运行\n")
+    console.log("\n默认不运行,设置变量export DY_WASHBEANS='true'来运行\n")
     return
 }
 const $ = new Env('临期京豆续命-加密');
