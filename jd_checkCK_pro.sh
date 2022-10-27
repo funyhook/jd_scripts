@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-
+# new Env('ck/wskey检测转换PRO版本');
 ## 版本号
 Ver="Build 2022831-001-Alpha"
 
