@@ -154,11 +154,11 @@ async function run(type = 0){
         let s = 0
         let t = 0
         do{
-            const flCodeArr = ["kKeBDtR","kKe8Bnk","kIe89mq","kKeBDtR","kLe6qxN"];//鸡蛋不要放在一个篮子里
-            for (let i = 0; i < 5; i++) {
-                flCodeArr.push(rebateCodes)
-            }
-            rebateCode = flCodeArr[Math.floor((Math.random() * flCodeArr.length))]
+            // const flCodeArr = ["kKeBDtR","kKe8Bnk","kIe89mq","kKeBDtR","kLe6qxN"];//鸡蛋不要放在一个篮子里
+            // for (let i = 0; i < 5; i++) {
+            //     flCodeArr.push(rebateCodes)
+            // }偷助力的 不要打开哦！！！
+            rebateCode =rebateCodes
             if(t>2) s = 0
             $.flag = 0
             newCookie = ''
