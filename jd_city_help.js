@@ -48,6 +48,9 @@ let inviteCodes = ['']
   }
   if (process.env.CITY_HELPCODE && process.env.CITY_HELPCODE.indexOf('@') > -1) {
     shareCodes = process.env.CITY_HELPCODE.split('@');
+  }else{
+     console.log(`请设置环境变量助力码CITY_HELPCODE，多个助力用@分割`)
+    return
   }
 
   for (let i = 0; i < cookiesArr.length; i++) {
