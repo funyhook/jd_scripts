@@ -23,7 +23,7 @@ from time import sleep
 from notify import send
 import requests,deepdiff,json,os
 
-# 获取脚本ID
+# 获取脚本ID1
 def qlcron(name):
     url = host+"/crons?searchValue="+name
     rsp = session.get(url=url, headers=headers)
